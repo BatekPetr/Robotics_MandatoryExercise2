@@ -1,0 +1,3 @@
+/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/CMakeFiles/edit_cache.dir
+/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/CMakeFiles/rebuild_cache.dir
+/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/CMakeFiles/ManEx2.dir

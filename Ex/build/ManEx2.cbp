@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="ManEx2" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\home\;CMake Files\..\..\..\..\..\..\..\..\..\home\petr\;CMake Files\..\..\..\..\..\..\..\..\..\home\petr\temp\;CMake Files\..\..\..\..\..\..\..\..\..\home\petr\temp\Robwork_new\;CMake Files\..\..\..\..\..\..\..\..\..\home\petr\temp\Robwork_new\RobWork\;CMake Files\..\..\..\..\..\..\..\..\..\home\petr\temp\Robwork_new\RobWork\cmake\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ManEx2">
+         <Option output="/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/ManEx2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/src/../build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DBOOST_DISABLE_ASSERTS" />
+            <Add directory="/home/petr/temp/Robwork_new/RobWork/cmake/../ext/assimp/include" />
+            <Add directory="/home/petr/temp/Robwork_new/RobWork/cmake/../ext/boostbindings" />
+            <Add directory="/home/petr/temp/Robwork_new/RobWork/cmake/../ext/csgjs/src" />
+            <Add directory="/home/petr/temp/Robwork_new/RobWork/cmake/../ext/eigen3" />
+            <Add directory="/home/petr/temp/Robwork_new/RobWork/cmake/../ext/lua/src" />
+            <Add directory="/home/petr/temp/Robwork_new/RobWork/cmake/../ext/qhull/src" />
+            <Add directory="/home/petr/temp/Robwork_new/RobWork/cmake/../ext/rwpqp" />
+            <Add directory="/home/petr/temp/Robwork_new/RobWork/cmake/../ext/rwyaobi" />
+            <Add directory="/home/petr/temp/Robwork_new/RobWork/cmake/../ext/unzip" />
+            <Add directory="/home/petr/temp/Robwork_new/RobWork/cmake/../src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/Makefile&quot;  VERBOSE=1 ManEx2" />
+            <CompileFile command="/usr/bin/make -f &quot;/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ManEx2/fast">
+         <Option output="/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/ManEx2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/src/../build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DBOOST_DISABLE_ASSERTS" />
+            <Add directory="/home/petr/temp/Robwork_new/RobWork/cmake/../ext/assimp/include" />
+            <Add directory="/home/petr/temp/Robwork_new/RobWork/cmake/../ext/boostbindings" />
+            <Add directory="/home/petr/temp/Robwork_new/RobWork/cmake/../ext/csgjs/src" />
+            <Add directory="/home/petr/temp/Robwork_new/RobWork/cmake/../ext/eigen3" />
+            <Add directory="/home/petr/temp/Robwork_new/RobWork/cmake/../ext/lua/src" />
+            <Add directory="/home/petr/temp/Robwork_new/RobWork/cmake/../ext/qhull/src" />
+            <Add directory="/home/petr/temp/Robwork_new/RobWork/cmake/../ext/rwpqp" />
+            <Add directory="/home/petr/temp/Robwork_new/RobWork/cmake/../ext/rwyaobi" />
+            <Add directory="/home/petr/temp/Robwork_new/RobWork/cmake/../ext/unzip" />
+            <Add directory="/home/petr/temp/Robwork_new/RobWork/cmake/../src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/Makefile&quot;  VERBOSE=1 ManEx2/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/src/main.cpp">
+         <Option target="ManEx2"/>
+      </Unit>
+      <Unit filename="/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/src/../../../../../../../../../home/petr/temp/Robwork_new/RobWork/cmake/RobWorkConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\home\petr\temp\Robwork_new\RobWork\cmake\" />
+      </Unit>
+      <Unit filename="/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/src/../../../../../../../../../home/petr/temp/Robwork_new/RobWork/cmake/RobWorkConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\home\petr\temp\Robwork_new\RobWork\cmake\" />
+      </Unit>
+      <Unit filename="/media/petr/WD_HDD/SDU/RoVi1/Robotics/ManEx2/Ex/src/../../../../../../../../../home/petr/temp/Robwork_new/RobWork/cmake/RobWorkBuildConfig_relwithdebinfo.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\home\petr\temp\Robwork_new\RobWork\cmake\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
